@@ -2,6 +2,11 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
+#Ex/including files/folders
+include:
+	- .htaccess
+
+
 # Site
 title: henrique o.
 subtitle: front-end dev
