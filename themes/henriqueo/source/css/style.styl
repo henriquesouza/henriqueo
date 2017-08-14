@@ -1,0 +1,93 @@
+@import "nib"
+@import "_variables"
+@import "_util/mixin"
+@import "_util/grid"
+
+global-reset()
+
+input, button
+  margin: 0
+  padding: 0
+  &::-moz-focus-inner
+    border: 0
+    padding: 0
+
+*
+	padding: 0
+	margin: 0
+	border: 0
+	text-decoration: none
+	font-family: "Open Sans"
+	//font-weight: normal
+  //transition: all 0.35s ease-in-out
+  transition: all 0.35s ease-in-out
+
+html, body
+	font: 20px sans-serif
+	color: $shaded-black
+	margin: 0
+	padding: 0
+	background: rgba(0,0,0,.01)
+
+del
+  text-decoration: line-through
+em
+  font-style: italic
+  font-family: serif
+strong
+	font-weight: bold
+ol
+	list-style-type: decimal
+ul, ol
+        margin-bottom: 20px
+        margin-left: 20px
+        
+code
+        background: rgba(0,0,0,.1)
+
+hr
+        margin: 20px 0
+        display: block
+        border-bottom: 1px solid rgba(0,0,0,.3)
+        
+.outer
+	max-width: 900px
+	margin: auto
+	margin-top: 145.6px
+
+
+.inner
+  column(columns)
+
+.left, .alignleft
+  float: left
+
+.right, .alignright
+  float: right
+
+.clear
+  clear: both
+
+#container
+  position: relative
+
+.mobile-nav-on
+  overflow: hidden
+
+#wrap
+  height: 100%
+  width: 100%
+  position: absolute
+  top: 0
+  left: 0
+  transition: 0.2s ease-out
+  z-index: 1
+  background: color-background
+  background: #fff
+  .mobile-nav-on &
+    left: mobile-nav-width
+
+@import "_extend"
+@import "_partial/header"
+@import "_partial/article"
+@import "_partial/footer"

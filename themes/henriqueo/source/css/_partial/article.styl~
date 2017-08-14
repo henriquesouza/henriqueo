@@ -1,0 +1,81 @@
+.article
+	//margin: 20px 0
+	padding: 20px
+	//padding-bottom: 0
+	border-bottom: 1px solid rgba(0,0,0,.1)
+
+	&:hover
+		//background: rgba(255,255,255,.7)
+
+	&::after
+		position: relative
+		margin-top: 10px
+		background: linear-gradient(-90deg, rgba(0,0,0,.1), rgba(0,0,0,.01), rgba(0,0,0,.1))
+		padding: .5px
+		display: block
+		//content: " "
+
+	a
+		color: rgba(48,48,48,.8)
+
+	h1 a
+		color: default-theme-color
+		display: block
+
+	&:hover h1 a, &:active h1 a, &:focus h1 a
+		color: default-theme-dark-color
+
+	h1
+		display: inline
+	h2
+		font-size: 32px 
+		font-weight: bold
+		margin-bottom: 0px
+	.date
+		a
+			font-size: 14px
+			text-transform: uppercase
+			display: block        
+.article-body
+	color: shaded-black
+	max-width: 700px
+	margin: auto
+	display: block
+	border-bottom: 0
+
+	.article-header
+		margin: 30px 0
+	h1
+		font-size: 48px
+		text-align: center
+		font-weight: bold
+		display: block
+	p
+		margin-bottom: 30px
+		line-height: 35px
+
+	p:last-of-type
+		margin-bottom: 0 !important
+
+
+	.date
+		text-align: center
+		display: block
+		text-transform: uppercase
+		font-size: 14px
+		color: rgba(48,48,48,.8)
+
+	blockquote
+		background: rgba(0,0,0,0.02)
+		font-style: italic
+		font-family: serif
+		border-left: 5px solid rgba(0,0,0,0.2)
+		margin: 50px 100px
+		display: block
+		width: calc(100% - 100px - 80px)
+		position: relative
+		padding: 20px 40px
+		z-index: -1
+	ul, ol
+	        display: block
+	        margin-bottom: 20px
