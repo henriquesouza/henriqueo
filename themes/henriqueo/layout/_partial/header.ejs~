@@ -1,28 +1,12 @@
 <header id="header">
 		<div class="external">
-			<div class="external-center">
-				<ul id="menu">
+			<ul>
 
-					<li class="menu-item"><a href="//github.com/henriquesouza" target="_blank" rel="nofollow"><img src="/images/github-24.svg" title="GitHub"  alt="GitHub"/></a></li>
-					<!--<li><a href=""><img src="./assets/logo-square.svg" title="GitLab"  alt="GitLab"/></a></li>-->
-					<li class="menu-item"><a href="//mstdn.io/@henriqueo" target="_blank" rel="nofollow"><img src="/images/mastodon-24.svg" title="Mastodon" alt="Mastodon"/></a></li>
-
-				</ul>
-				<ul>
-					<li class="free-item">
-						<span href="#" id="get-in-touch" tabindex="3">
-							Get in touch!
-						 <span id="contact-info">
-							    <ul id="contact-list">
-											<li><a href="//github.com/henriquesouza/" target="_blank"><strong>Github:</strong>  <p>github.com/henriquesouza</p></a></li>
-											<li><a target="_blank" href="https://mstdn.io/@henriqueo"><strong>Mastodon:</strong> <p>@henriqueo</p></a></li>
-											<li><a href="mailto:hey@henriqueo.com.br"><strong>Email:</strong><p>hey@henriqueo.com.br</p></a></li>
-									</ul>
-						 </span>
-					 </span>
-					</li>
-				</ul>
-			</div>
+				<li><a href="//github.com/henriquesouza" target="_blank" rel="nofollow"><img src="/images/github-24.svg" title="GitHub"  alt="GitHub"/></a></li>
+				<!--<li><a href=""><img src="./assets/logo-square.svg" title="GitLab"  alt="GitLab"/></a></li>-->
+				<li><a href="//mstdn.io/@henriqueo" target="_blank" rel="nofollow"><img src="/images/mastodon-24.svg" title="Mastodon" alt="Mastodon"/></a></li>
+				<li><a id="get-in-touch" tabindex="1">Get in touch</a></li>
+			</ul>
 		</div>
 		<div class="site-desc">
 				<h1>
