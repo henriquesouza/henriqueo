@@ -94,3 +94,4 @@ githubEmojis:
 html_minifier:
   enabled: true
   exclude:
+
