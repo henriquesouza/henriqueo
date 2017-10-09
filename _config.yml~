@@ -92,5 +92,5 @@ githubEmojis:
 
 #HTML minifier
 html_minifier:
-  enabled: false
+  enabled: true
   exclude:
