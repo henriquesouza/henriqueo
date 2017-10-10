@@ -1,5 +1,1 @@
-variables_values = {
-        "mastodon_username":"henriqueo@mstdn.io"
-}
-
-
+variables_values={mastodon_username:"henriqueo@mstdn.io"};
