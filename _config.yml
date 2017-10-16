@@ -73,7 +73,11 @@ theme: henriqueo
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/henriquesouza/henriqueo.git
+  branch: public
+  ignore_hidden: false
+#  message: 
 
 #nofollow
 nofollow:
@@ -90,8 +94,6 @@ githubEmojis:
   styles:
   localEmojis:
 
-#HTML minifier
-html_minifier:
-  enabled: true
-  exclude:
+#minifier
+all_minifier: true
 

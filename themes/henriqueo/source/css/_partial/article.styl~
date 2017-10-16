@@ -1,6 +1,8 @@
 .article
 	//margin: 20px 0
 	padding: 20px
+	max-width: 700px
+	word-wrap: break-word
 	//padding-bottom: 0
 	border-bottom: 1px solid rgba(0,0,0,.1)
 
@@ -22,26 +24,28 @@
 		color: default-theme-color
 		display: block
 
+
 	&:hover h1 a, &:active h1 a, &:focus h1 a
 		color: default-theme-dark-color
 
 	h1
 		display: inline
 	h2
-		font-size: 32px 
+		font-size: 32px
 		font-weight: bold
 		margin-bottom: 0px
 	.date
 		a
 			font-size: 14px
 			text-transform: uppercase
-			display: block        
+			display: block
 .article-body
 	color: shaded-black
 	max-width: 700px
 	margin: auto
 	display: block
 	border-bottom: 0
+
 
 	.article-header
 		margin: 30px 0
@@ -53,6 +57,8 @@
 	p
 		margin-bottom: 30px
 		line-height: 35px
+		max-width: 100%
+		display: inline-block
 
 	p:last-of-type
 		margin-bottom: 0 !important
@@ -71,7 +77,10 @@
 		font-family: serif
 		border-left: 5px solid rgba(0,0,0,0.2)
 		margin: 50px 100px
-		display: block
+		margin-right: 0
+		
+		display: inline-block
+
 		width: calc(100% - 100px - 80px)
 		position: relative
 		padding: 20px 40px
